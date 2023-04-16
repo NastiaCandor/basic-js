@@ -29,8 +29,6 @@ function getSeason(date) {
         result = key;
       }
     }
-    
-    
     return result;
   } else {
     const e = new Error('Invalid date!');
